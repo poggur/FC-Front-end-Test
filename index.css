@@ -40,19 +40,19 @@
   }
 
   .Card{
-    flex-direction: column; background-color: hsl(235, 46%, 20%); width: 22%; height: 490px; border-radius: 3%;
+    flex-direction: column; background-color: hsl(235, 46%, 20%); width: 100%; height: 470px; border-radius: 3%;
   }
 
   .Small-Card-Set{
-    display: flex; flex-direction: column;
+    display: flex; flex-direction: column; width:15%;
   }
 
   .Small-Card-Work{
-    background-color: hsl(15, 100%, 70%); width: 22%; height: 225px; margin-top: 20px; display:flex; flex-direction: column; border-radius: 5%;
+    background-color: hsl(15, 100%, 70%); width:100%; height: 225px; display:flex; flex-direction: column; border-radius: 5%;
   }
 
   .Content-Container{
-    background-color: hsl(235, 46%, 20%); height: 85%; width: 100%; border-radius: 5%;
+    background-color: hsl(235, 46%, 20%); height: 85%; width: 100%; border-radius: 5%; display: flex;
   }
   .Content-Container:hover {
     background-color:  #34397b
@@ -67,11 +67,11 @@
   }
   
   .Header-Container{
-    display: flex; flex-direction: row;
+    display: flex; flex-direction: row; justify-content: space-between; width: 100%; height: 25%;
   }
 
   .Ellipsis{
-    display: flex; align-self: center; width: 10%; height: 5%;
+    display: flex; align-self: center; width: 10%; height: 15%; margin-right: 10px;
   }
   
   .Title{
@@ -80,4 +80,20 @@
 
   .Report-For{
     padding-left: 20px; font-family: 'Rubik', sans-serif; color: #efeafe;
+  }
+
+  .row{
+    width: 100%; height: 100%; padding: 2rem;
+  }
+
+  .col{
+    width: 20%;
+  }
+
+  .Card-Set-Container{
+    display: flex; flex-direction: row; width: auto; height: auto
+  }
+
+  .Time-Container{
+    
   }
