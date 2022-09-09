@@ -43,11 +43,14 @@
 }
 
 .jeremy {
-  padding-top: 20px;
-  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
   margin-bottom: 20px;
   height: 100px;
-  width: 100px
+  width: 100px;
+  border-radius: 100%;
+  border-color: white;
+  border-style: solid;
 }
 
 .Main-Card-Section {
